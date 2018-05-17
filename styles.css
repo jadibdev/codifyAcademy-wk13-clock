@@ -1,0 +1,19 @@
+#txt {
+	display: flex;
+	justify-content: center;
+	font-size: 80px;
+	margin-top: 150px;
+	color: #06e924;
+	font-family: 'Monoton', cursive;
+	font-family: 'Press Start 2P', cursive;
+}
+
+body {
+	background: black !important;
+}
+
+@media only screen and (max-width: 600px) {
+	#txt {
+		font-size: 40px;
+	}
+}
